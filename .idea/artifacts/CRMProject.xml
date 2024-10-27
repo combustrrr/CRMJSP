@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="CRMProject">
+    <output-path>$PROJECT_DIR$/out/artifacts/CRMProject</output-path>
+    <root id="archive" name="CRMProject.war">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="javaee-facet-resources" facet="CRMProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CRMProject" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
